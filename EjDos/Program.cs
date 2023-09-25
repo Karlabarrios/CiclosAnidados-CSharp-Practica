@@ -13,7 +13,7 @@ namespace ExtraCuatro
 
             for( int x = 0; x < 5; x++)
             {
-                Console.WriteLine("Ingresa un número lindi °3°");
+                Console.WriteLine("Ingresa un número, lindi");
                 n = int.Parse(Console.ReadLine());
                 tn = 0;
                 ni = 0;
@@ -33,7 +33,7 @@ namespace ExtraCuatro
                     else
                         bOrd = false;
 
-                    Console.WriteLine("Ingresa un número d nuevo jiji");
+                    Console.WriteLine("Ingresa un número d nuevo");
                     n = int.Parse(Console.ReadLine());
                 }
                 p = (ni * 100) / tn;
